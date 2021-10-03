@@ -207,7 +207,6 @@ textarea {
 .input-box {
   display: flex;
   justify-content: space-between;
-  /* width: 940px; */
   margin: auto;
   margin-bottom: 28px;
   }
