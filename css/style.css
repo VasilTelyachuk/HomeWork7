@@ -36,7 +36,7 @@ body {
   font-size: 14px;
   line-height: 1.2;
   color: #222222;
-}
+  }
 .heder-box {
   width: 940px;
   display: flex;
@@ -57,9 +57,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-  width: 485px;
   margin: 0px;
   padding: 0px;
+}
+.nav-item:not(:nth-child(5n)) {
+  margin-right: 40px;
 }
 .nav-link {
   text-decoration: none;
@@ -135,12 +137,12 @@ body {
 }
 .wrap-box {
   background-color: #222222;
-}
+    }
 .section-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
+  margin: 0px auto;
   width: 1400px;
   background-image: url(../img/Map\ Image1.png);
   background-repeat: no-repeat;
