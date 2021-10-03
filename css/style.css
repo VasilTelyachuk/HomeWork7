@@ -133,20 +133,21 @@ body {
   line-height: 19px;
   margin: 0px;
 }
-.wrap-form {
+.wrap-box {
   background-color: #222222;
-    }
+}
 .section-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
+  width: 1400px;
   background-image: url(../img/Map\ Image1.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-x: 1030px;
-  background-position-y: 100px;
-  }
+  background-position-x: 780px;
+  background-position-y: 100px ;
+    }
 .title-form {
   font-size: 40px;
   line-height: 75px;
@@ -188,7 +189,7 @@ input {
 textarea {
   width: 437px;
   padding: 0px;
-  padding: 0px 0px 0px 20px;
+  padding: 16px 0px 0px 20px;
   border: none;
   border-radius: 2px;
   font-family: "Montserrat";
@@ -207,7 +208,7 @@ textarea {
 .input-box {
   display: flex;
   justify-content: space-between;
-  width: 940px;
+  /* width: 940px; */
   margin: auto;
   margin-bottom: 28px;
   }
@@ -218,6 +219,9 @@ textarea {
 }
 .input-menu-item:nth-child(-n + 2) {
   margin-bottom: 28px;
+}
+.input-menu-item:nth-child(-n+3) {
+  margin-right: 28px;
 }
 .send-button {
   width: 240px;
